@@ -1,33 +1,52 @@
 body {
     text-align: center;
 }
+
 #Apps {
     height: 800px;
     width: 100%;
     background-color: lightcyan;
 }
+
 #Games {
     height: 800px;
     width: 100%;
     background-color: lightpink;
 }
+
 #Chatbot {
     height: 800px;
     width: 100%;
     background-color: lightgreen;
 }
+
 .line {
     width: 100px;
     height: 6px;
     background-color: black;
     margin: 8px auto;
 }
+
 img {
     transition: transform .2s;
 }
+
 img:hover {
     transform: scale(0.9)
 }
+
 h1 {
     font-size: 40px;
+}
+#mycarousel {
+    background-color: blue;
+}
+#mycarousel img {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+#mycarousel p {
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-size: 20px;
 }

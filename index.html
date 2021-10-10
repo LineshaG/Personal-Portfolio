@@ -3,31 +3,51 @@
 <head>
     <title> Personal Potfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
 </head>
 
 <body>
-
-    <section id="Apps">
-        <h1> Apps </h1>
+    <div class="container">
+        <section id="Apps">
+            <h1> Apps </h1>
+            <div id="line"> </div>
+            <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ZJlsu8AUXCb_2grUqe8a5ctA5iToDMtV57mE-KpmEsc/embed"></iframe>
+            <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/wsUPYdpmPfhDfteqV7WcSGRTDERde5cWQ_SvnKPJZPc/embed"></iframe>
+        </section>
+        <h2> Click on the Games to explore!! </h2>
         <div id="line"> </div>
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ZJlsu8AUXCb_2grUqe8a5ctA5iToDMtV57mE-KpmEsc/embed"></iframe>
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/wsUPYdpmPfhDfteqV7WcSGRTDERde5cWQ_SvnKPJZPc/embed"></iframe>
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/JJAUCFlLvnWM45WscnafR2sLCsTyGIfMi_6lCts5SJU/embed"></iframe>
-    </section>
-    <section id="Games">
-        <h1> Games </h1>
-        <div id="line"> </div>
-        <a href="https://studio.code.org/projects/spritelab/SxBJsNju_RNiyIhRvssLOd1mAYqGEqC-R4Ze6qhdQ_s" target="_blank">
-            <img src="Winnie%20the%20Poo.PNG"> </a>
-        <a href="https://studio.code.org/projects/playlab/4BVCAcWFa4yH4tabXZGLQJP8Z1k3m5PRY3cEawYpwcg" target="_blank">
-            <img src="Dragon.PNG"> </a>
-    </section>
-    <section id="Chatbot">
-        <h1> Chatbot </h1>
-        <div id="line"> </div>
-        <iframe allow="microphone;" width="350" height="630" src="https://console.dialogflow.com/api-client/demo/embedded/cab338f0-532c-4ca0-a1cf-6aa7dd62a9c3">
-        </iframe>
-    </section>
-</body>
-
-</html>
+        <div id="mycarousel" class="carousel slide">
+            <div class= "carousel-inner">
+                <div class= "item active">
+                <center>
+             <a href="https://studio.code.org/projects/spritelab/SxBJsNju_RNiyIhRvssLOd1mAYqGEqC-R4Ze6qhdQ_s" target="_blank">
+                <img src="Winnie%20the%20Poo.PNG"> </a>
+                    <div class= "carousel-content">
+                    <p> Winnie the Poo </p></div>
+                    </center></div>
+           
+         <div class= "item">
+                <center>
+             <a href="https://studio.code.org/projects/playlab/4BVCAcWFa4yH4tabXZGLQJP8Z1k3m5PRY3cEawYpwcg" target="_blank">
+                <img src="Dragon.PNG"> </a>
+                    <div class= "carousel-content">
+                    <p> Save the city</p></div>
+                    </center></div>
+                </div>
+            <a class ="left carousel-control" href ="#mycarousel" data-slide= "prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class ="right carousel-control" href ="#mycarousel" data-slide= "next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <section id="Chatbot">
+            <h1> Chatbot </h1>
+            <div id="line"> </div>
+            <iframe allow="microphone;" width="350" height="630" src="https://console.dialogflow.com/api-client/demo/embedded/cab338f0-532c-4ca0-a1cf-6aa7dd62a9c3">
+            </iframe>
+        </section>
+    </div>
+</body></html>
